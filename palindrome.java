@@ -12,8 +12,7 @@ function checkPalindrome() {
     let text = document.getElementById("word").value;
     let reversed = text.split("").reverse().join("");
 
-    if 
-        (text === reversed)
+    if(text === reversed)
         document.getElementById("result").innerText = "It is a Palindrome";
 
     else
@@ -37,5 +36,4 @@ function checkPalindrome() {
 <p id="result"></p>
 
 </body>
-
 </html>
